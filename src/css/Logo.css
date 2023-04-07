@@ -1,0 +1,16 @@
+.logo {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.logo-icon {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
+.logo-text {
+  font-size: 1.6rem; 
+}

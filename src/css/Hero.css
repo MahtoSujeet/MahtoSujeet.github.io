@@ -1,0 +1,50 @@
+.Hero {
+  display: flex;
+  height: 44rem;
+  gap: 1.8rem;
+}
+
+.hero-text h1 {
+  font-weight: 600;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  background-color: #d75b56;
+  padding: 4.8rem;
+  width: 9rem;
+  flex-grow: 5;
+  line-height: 1.1;
+  justify-content: space-between;
+}
+
+.intro {
+  font-size: 4.8rem;
+  letter-spacing: -1px;
+}
+
+.intro-desc {
+  font-size: 1.8rem;
+  margin-bottom: 9.6rem;
+}
+
+.CallToAction {
+  display: flex;
+  gap: 1.8rem;
+  align-items: center;
+}
+
+.WhatsAppIcon:hover {
+  background-color: #075E54;
+}
+
+.GitHubIcon,
+.GitHubIcon {
+  fill: green;
+  height: 3rem;
+  width: 3rem;
+}
+
+.GitHubIcon:hover {
+  background-color: #171515;
+}
