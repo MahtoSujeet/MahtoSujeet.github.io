@@ -21,7 +21,7 @@ export default function Hero() {
   )
 }
 
-function CallToAction() {
+export function CallToAction() {
   return (
     <div className="CallToAction">
       <a className="btn cta-btn" href="mailto:sujeetmehta6@gmail.com">Contact Me</a>
@@ -31,3 +31,5 @@ function CallToAction() {
     </div>
   )
 }
+
+
