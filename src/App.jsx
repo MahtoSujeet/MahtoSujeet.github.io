@@ -1,17 +1,23 @@
-import Nav from "./components/Nav.jsx"
-import Hero from "./components/Hero.jsx"
+import "./css/general.css"
+import "./css/App.css"
 
 import CurvyLine from "./assets/svg/curvyLine.jsx"
-import "./css/App.css"
-import "./css/general.css"
+
+import Nav from "./components/Nav.jsx"
+import Hero from "./components/Hero.jsx"
+import Skills from "./components/Skills.jsx"
+
 
 function App() {
 
   return (
     <div className="App">
-      <Nav />
+      <header>
+        <Nav />
+      </header>
       <Hero />
       <CurvyLine />
+      <Skills />
     </div>
   )
 }

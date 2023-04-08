@@ -1,9 +1,9 @@
+import "../css/Nav.css"
+
 import React from "react"
 import Logo from "./Logo.jsx"
 
-import "../css/Nav.css"
-
-export default function Nav(props) {
+export default function Nav() {
   return (
     <nav className="nav">
       <Logo />

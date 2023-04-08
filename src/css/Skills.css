@@ -1,0 +1,47 @@
+.skillsHeading {
+  margin: 4.8rem;
+  font-size: 3.2rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  color: #333;
+}
+
+.Skills {
+  text-align: center;
+}
+
+.skillCards {
+  margin: 2.4rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.4rem;
+}
+
+.SkillCard {
+  padding: 0 8.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.6rem;
+  height: 28rem;
+  box-shadow: none;
+}
+
+.skillIcons {
+  margin: 0.8rem;
+}
+
+.skillIcon {
+  width: 9.8rem;
+}
+
+.skillTitle {
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.4rem;
+}
+
+.skillDesc {
+   color: #666;  
+   line-height: 2.2rem;
+ }

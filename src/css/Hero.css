@@ -4,18 +4,20 @@
   gap: 1.8rem;
 }
 
-.hero-text h1 {
-  font-weight: 600;
-}
 .hero-text {
+  background-image: linear-gradient(to bottom right, #ffead9,  #e5ecff);
   display: flex;
   flex-direction: column;
-  background-color: #d75b56;
+  background-color: #9d92db;
   padding: 4.8rem;
   width: 9rem;
   flex-grow: 5;
   line-height: 1.1;
   justify-content: space-between;
+}
+
+.hero-text h1 {
+  font-weight: 600;
 }
 
 .intro {
@@ -28,23 +30,28 @@
   margin-bottom: 9.6rem;
 }
 
+/***** call to action *********/
+
 .CallToAction {
   display: flex;
   gap: 1.8rem;
   align-items: center;
 }
 
+.WhatsAppIcon:focus,
 .WhatsAppIcon:hover {
   background-color: #075E54;
 }
 
-.GitHubIcon,
-.GitHubIcon {
-  fill: green;
-  height: 3rem;
-  width: 3rem;
-}
-
+.GitHubIcon:focus,
 .GitHubIcon:hover {
   background-color: #171515;
 }
+
+.InstagramIcon:focus,
+.InstagramIcon:hover {
+  background-image: linear-gradient(to bottom left, #ff0000 , #FFC0CB, orange);
+}
+
+/**********************************/
+

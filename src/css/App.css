@@ -1,17 +1,9 @@
-/*
- 
-
-
-
-
-
-
-*/
 :root {
   --primary-color: #1864ab;
-  --gray-color: #212529;
+  --gray-color: #333;
   --bg-color: #fafdff;
 }
+
 * {
   box-sizing: border-box;
   padding: 0;
