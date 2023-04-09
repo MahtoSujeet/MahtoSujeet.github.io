@@ -5,7 +5,7 @@ import Logo from "./Logo.jsx"
 
 export default function Nav() {
   return (
-    <nav className="nav">
+    <nav className="Nav">
       <Logo />
       <div className="NavOpts">
         <NavOpt link="#" name="Home" />

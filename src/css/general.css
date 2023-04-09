@@ -1,6 +1,5 @@
 .card {
-  border-radius: 12px;
-  /* box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); */
+  border-radius: 28px;
 }
 
 a {
@@ -15,8 +14,8 @@ a:hover {
 
 .icon {
   fill: var(--gray-color);
-  width: 3.8rem;
-  height: 3.8rem;
+  width: 5rem;
+  height: 5rem;
   padding: 0.8rem;
   background-color: var(--bg-color);
   border-radius: 50%;
@@ -28,8 +27,8 @@ a:hover {
   fill: var(--bg-color);
 }
 .btn {
-  font-size: 1.4rem;
-  padding: 1.6rem 4.8rem;
+  font-size: 1.8rem;
+  padding: 1.8rem 5.2rem;
   border: none;
   border-radius: 100px;
   background-color: #171515;

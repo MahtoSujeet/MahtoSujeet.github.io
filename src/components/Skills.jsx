@@ -15,9 +15,9 @@ export default function Skills() {
 }
 
 // #TODO fix: relative path not working
-function SkillCard({ props }) {
+export function SkillCard({ props }) {
   let style = {
-    backgroundImage: `linear-gradient(${props.bgColor}, #fff)`,
+    backgroundImage: `linear-gradient(${props.bgColor}, #fafdff)`,
   }
   return (
     <div className="card SkillCard" style={style}>

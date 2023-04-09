@@ -1,0 +1,76 @@
+/* width < 912px */
+@media (max-width: 57em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* width < 720 */ 
+@media (max-width: 45em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+ /* widht < 560px [mobile] */
+@media (max-width: 35em) {
+  html {
+    font-size: 100%;
+  }
+
+  .logo-icon {
+    /* height: 1rem; */
+    /* width: 1rem; */
+  }
+
+  .logo-text {
+    font-size: 1.6rem;
+  }
+
+  .NavOpts {
+    display: none;
+  }
+
+  .Hero {
+    flex-direction: column-reverse;
+    gap: 0.8rem;
+  }
+
+  .heroImgWrapper {
+    height: 20rem;
+    width: auto;
+    overflow: hidden;
+  }
+
+  .hero-img {
+    /* height: auto; */
+    /* transform: scale(0.5); */
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    object-fit: cover;
+    object-position: 55% 40%;
+  }
+
+  .intro {
+    font-size: 3.6rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .intro-desc {
+    /* font-size: ; */
+  }
+
+  .skillCards {
+    grid-template-columns: 1fr;
+  }
+
+  .SkillCard {
+    max-width: 48rem;
+    margin: auto;
+  }
+
+
+  /* Footer */
+}
+

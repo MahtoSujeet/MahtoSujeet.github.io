@@ -1,4 +1,4 @@
-.nav {
+.Nav {
   display: flex;
   justify-content: space-between;
   margin: 1.8rem auto;
@@ -13,6 +13,6 @@
   transition-duration: 200ms;
 }
 
-.nav a:hover {
+.Nav a:hover {
   color: unset;
 }

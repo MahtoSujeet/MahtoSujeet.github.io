@@ -1,6 +1,6 @@
 import "../css/Hero.css"
 
-import sujeetImg from "../assets/img/sujeet.jpeg"
+import sujeetImg from "../assets/img/sujeet-full.jpeg"
 import { WhatsAppIcon } from "../assets/svg/whatsapp"
 import GitHubIcon from "../assets/svg/github.jsx"
 import InstagramIcon from "../assets/svg/instagram"
@@ -10,13 +10,18 @@ export default function Hero() {
   return (
     <section className="Hero">
       <div className="hero-text card">
-        <h1 className="intro">Hi, I'm Sujeet,<br /> a Front-End developer.</h1>
-        <p className="intro-desc">I love the challenge of creating interactive and dynamic websites that engage users and leave a lasting impression.</p>
-
+        <div className="introWrapper">
+          <h1 className="intro">Hi, I'm Sujeet,<br />a Front-End developer.</h1>
+          <p className="intro-desc">I love the challenge of creating interactive and dynamic websites that engage users and leave a lasting impression.</p>
+        </div>
 
         <CallToAction />
       </div>
-      <img className="hero-img card" src={sujeetImg} />
+
+      {/* Adding a wrapper div for media query to maintain aspect ratio */}
+      <div className="heroImgWrapper card">
+        <img className="hero-img card" src={sujeetImg} />
+      </div>
     </section>
   )
 }

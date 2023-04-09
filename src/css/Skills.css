@@ -1,13 +1,13 @@
+.Skills {
+  text-align: center;
+}
+
 .skillsHeading {
   margin: 4.8rem;
   font-size: 3.2rem;
   font-weight: 500;
   letter-spacing: 0.1rem;
   color: #333;
-}
-
-.Skills {
-  text-align: center;
 }
 
 .skillCards {
@@ -23,7 +23,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 1.6rem;
-  height: 28rem;
+  min-height: 42rem;
   box-shadow: none;
 }
 
@@ -32,16 +32,17 @@
 }
 
 .skillIcon {
-  width: 9.8rem;
+  width: 11.8rem;
 }
 
 .skillTitle {
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   font-weight: 500;
   letter-spacing: 0.4rem;
 }
 
 .skillDesc {
-   color: #666;  
-   line-height: 2.2rem;
+  font-size: 1.6rem;
+  color: #666;  
+  line-height: 2;
  }

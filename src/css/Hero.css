@@ -1,40 +1,56 @@
 .Hero {
+  min-height: 60vh;
   display: flex;
-  height: 44rem;
   gap: 1.8rem;
 }
 
 .hero-text {
+  flex: 1 1 auto;
+
   background-image: linear-gradient(to bottom right, #ffead9,  #e5ecff);
+  padding: 4.8rem;
+  line-height: 1.1;
+
   display: flex;
   flex-direction: column;
-  background-color: #9d92db;
-  padding: 4.8rem;
-  width: 9rem;
-  flex-grow: 5;
-  line-height: 1.1;
   justify-content: space-between;
 }
 
-.hero-text h1 {
-  font-weight: 600;
+.heroImgWrapper {
+  flex: 0 0 auto;
+  width: 40rem;
+  height: 60vh;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+.hero-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 8rem;
+  transform: scale(1.4);
 }
 
 .intro {
-  font-size: 4.8rem;
+  margin-bottom: 4.8rem;
+  font-size: 7.6rem;
+  font-weight: 600;
   letter-spacing: -1px;
 }
 
 .intro-desc {
-  font-size: 1.8rem;
-  margin-bottom: 9.6rem;
+  font-size: 2.4rem;
 }
 
 /***** call to action *********/
 
+/* btn is in general.css */
+
 .CallToAction {
   display: flex;
-  gap: 1.8rem;
+  gap: 2.4rem;
   align-items: center;
 }
 
