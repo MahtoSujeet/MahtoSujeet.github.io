@@ -20,6 +20,7 @@
   flex: 0 0 auto;
   width: 40rem;
   height: 60vh;
+  min-height: 54rem;
   object-fit: cover;
   object-position: center;
   overflow: hidden;

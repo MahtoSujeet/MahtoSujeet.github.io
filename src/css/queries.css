@@ -1,30 +1,64 @@
-/* width < 912px */
-@media (max-width: 57em) {
+/* width < 1244px */
+@media (max-width: 84em) {
   html {
     font-size: 50%;
   }
+
+  .intro {
+    letter-spacing: -3px;
+  }
 }
 
-/* width < 720 */ 
-@media (max-width: 45em) {
+/* width < 1088px */
+@media (max-width: 68em) {
   html {
-    font-size: 50%;
+    /* 43.75% = 7px */
+    font-size: 43.75%;
+  }
+
+  .Hero {
+    min-height: 64rem;
+  }
+
+  .intro {
+    letter-spacing: -2px;
+  }
+
+  .heroImgWrapper{
+    min-height: 64rem;
+  }
+}
+
+/* width < 912px */
+@media (max-width: 57em) {
+  html {
+    /* 5px */
+    font-size: 31.25%;
+  }
+
+  .heroImgWrapper {
+    max-height: 30rem;
   }
 }
 
  /* widht < 560px [mobile] */
-@media (max-width: 35em) {
+/* midth < 688 */
+@media (max-width: 43em) {
   html {
-    font-size: 100%;
+    font-size: 50%;
+  }
+  
+  .card {
+    border-radius: 16px;
+    margin: 1rem;
   }
 
-  .logo-icon {
-    /* height: 1rem; */
-    /* width: 1rem; */
+  .App {
+    padding: 0 2.5rem;
   }
 
   .logo-text {
-    font-size: 1.6rem;
+    font-size: 3.2rem;
   }
 
   .NavOpts {
@@ -32,33 +66,55 @@
   }
 
   .Hero {
+    margin-top: 4rem;
     flex-direction: column-reverse;
     gap: 0.8rem;
   }
 
   .heroImgWrapper {
-    height: 20rem;
+    min-height: 0;
+    max-height: none;
+    height: 45rem;
     width: auto;
+    flex: 0 0 auto;
     overflow: hidden;
   }
 
   .hero-img {
-    /* height: auto; */
-    /* transform: scale(0.5); */
-    min-height: 100%;
-    min-width: 100%;
-    width: auto;
-    object-fit: cover;
-    object-position: 55% 40%;
+    width: 100%;
+    height: 100%;
+    object-position: 55% 10%;
+  }
+
+  .hero-text {
+    flex: 0 0 auto;
+    min-height: 50rem;
   }
 
   .intro {
-    font-size: 3.6rem;
-    margin-bottom: 1.4rem;
+    font-size: 4.8rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
   }
 
   .intro-desc {
-    /* font-size: ; */
+    margin-bottom: 7rem;
+    letter-spacing: -0.5px;
+  }
+
+  .CallToAction {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .CallToAction .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .icon {
+    height: 7rem;
+    width: 7rem;
   }
 
   .skillCards {
@@ -66,11 +122,15 @@
   }
 
   .SkillCard {
-    max-width: 48rem;
+    /* max-width: 48rem; */
     margin: auto;
+    padding: 7.2rem;
   }
 
 
   /* Footer */
+  .memojiImg {
+    display: none;
+  }
 }
 
