@@ -21,7 +21,6 @@ a:hover {
   color: blue;
 }
 
-.icon:visited,
 .icon {
   fill: var(--gray-color);
   width: 5rem;

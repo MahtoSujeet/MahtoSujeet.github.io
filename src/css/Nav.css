@@ -7,12 +7,23 @@
 .NavOpts {
   font-size: 2rem;
   display: flex;
-  gap: 4.8rem;
+  gap: 3.6rem;
 }
-.NavOpt {
+.navOpt {
+  border-radius: 4px;
+  padding: 1.2rem 1.6rem 0.8rem;
   transition-duration: 200ms;
 }
 
-.Nav a:hover {
+.navOpt:hover {
   color: unset;
+  text-decoration: none;
+  background-color: #555;
+  color: #fff;
 }
+
+.hamburgerWrapper {
+  display: none;
+  transform: scale(0.8);
+}
+

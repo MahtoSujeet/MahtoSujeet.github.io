@@ -24,4 +24,5 @@ html {
   max-width: 140rem;
   padding: 0 3rem;
   margin: 0 auto;
+  overflow-x: hidden;
 }

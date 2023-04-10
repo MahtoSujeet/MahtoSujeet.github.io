@@ -39,13 +39,23 @@
   .heroImgWrapper {
     max-height: 30rem;
   }
+
+  .cta-btn {
+    font-size: 2.4rem;
+  }
+
+  .icon {
+    height: 6.8rem;
+    width: 6.8rem;
+    padding: 1.8rem;
+  }
 }
 
  /* widht < 560px [mobile] */
 /* midth < 688 */
 @media (max-width: 43em) {
   html {
-    font-size: 50%;
+    font-size: 48%;
   }
   
   .card {
@@ -54,19 +64,52 @@
   }
 
   .App {
-    padding: 0 2.5rem;
+    padding: 0 2rem;
   }
 
   .logo-text {
     font-size: 3.2rem;
   }
 
+  .Nav {
+    margin: 0;
+    border-bottom: 2px solid rgba(55, 55, 55, 0.2);
+    padding: 0.5rem;
+
+    position: relative;
+  }
+
   .NavOpts {
-    display: none;
+    position: absolute;
+    transform: translateX(100vw);
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    transition: all 150ms ease-out;
+    background-color: rgba(255, 255, 255, 0.95);
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 10rem;
+    font-size: 3.2rem;
+    font-weight: 500;
+  }
+
+  .hamburgerWrapper {
+    display: unset;
+    z-index: 2;
+  }
+
+  .NavOpts.open {
+    transform: translateX(0)
+  }
+
+  .open .navOpt {
+    width: 88vw;
   }
 
   .Hero {
-    margin-top: 4rem;
+    margin-top: 2rem;
     flex-direction: column-reverse;
     gap: 0.8rem;
   }
@@ -89,6 +132,7 @@
   .hero-text {
     flex: 0 0 auto;
     min-height: 50rem;
+    padding: 5.4rem 4rem;
   }
 
   .intro {
@@ -135,6 +179,7 @@
     margin-bottom: 1.8rem;
   }
   .footerContent {
+    padding: 5.4rem 4rem;
     margin-block: -5.6rem;
   }
 
