@@ -2,31 +2,43 @@
   border-radius: 24px;
 }
 
+a:visited,
 a {
   color: var(--gray-color);
   text-decoration: none;
+
+  -webkit-tap-highlight-color: transparent; /* For iOS devices */
+  -webkit-touch-callout: none; /* For iOS devices */
+  -webkit-user-select: none; /* For Android devices */
+  -moz-user-select: none; /* For Firefox */
+  -ms-user-select: none; /* For Internet Explorer */
+  user-select: none;
 }
 
 a:hover {
+  outline: none;
   text-decoration: underline;
   color: blue;
 }
 
+.icon:visited,
 .icon {
   fill: var(--gray-color);
   width: 5rem;
   height: 5rem;
   padding: 0.8rem;
-  background-color: var(--bg-color);
-  background-color: #ebebeb;
+  background-color: #fff6f6;
   border-radius: 50%;
   transition: all 200ms;
 }
 
+.icon:active,
 .icon:focus,
 .icon:hover {
   fill: var(--bg-color);
 }
+
+.btn:visited,
 .btn {
   font-size: 1.8rem;
   padding: 1.8rem 5.2rem;
@@ -37,6 +49,7 @@ a:hover {
   transition: all 200ms;
 }
 
+.btn:active,
 .btn:focus,
 .btn:hover {
   background-color: #343a40;

@@ -50,7 +50,7 @@
   
   .card {
     border-radius: 16px;
-    margin: 1rem;
+    margin: 0.5rem;
   }
 
   .App {
@@ -115,6 +115,7 @@
   .icon {
     height: 7rem;
     width: 7rem;
+    padding: 1.6rem;
   }
 
   .skillCards {
@@ -129,8 +130,19 @@
 
 
   /* Footer */
+
+  .CallToAction .btn {
+    margin-bottom: 1.8rem;
+  }
+  .footerContent {
+    margin-block: -5.6rem;
+  }
+
   .memojiImg {
-    display: none;
+    display: block;
+    position: unset;
+    width: 70%;
+    margin: auto;
   }
 }
 
