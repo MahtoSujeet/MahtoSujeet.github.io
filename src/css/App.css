@@ -17,6 +17,7 @@ html {
   line-height: 1;
   color: var(--gray-color);
   background-color: var(--bg-color);
+  scroll-behavior: smooth;
 }
 
 .App {

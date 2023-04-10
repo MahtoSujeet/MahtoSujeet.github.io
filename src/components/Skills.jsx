@@ -5,7 +5,7 @@ import skillsData from "../assets/dataJson/skillImg"
 
 export default function Skills() {
   return (
-    <section className="Skills">
+    <section className="Skills" id="Skills">
       <h2 className="skillsHeading">Skillset</h2>
       <div className="skillCards">
         {skillsData.map((data, idx) => <SkillCard key={idx} props={data} />)}

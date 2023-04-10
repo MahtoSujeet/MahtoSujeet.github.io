@@ -9,7 +9,8 @@ export default function Nav() {
       <Logo />
       <div className="NavOpts">
         <NavOpt link="#" name="Home" />
-        <NavOpt link="#" name="Contact Me" />
+        <NavOpt link="#Skills" name="Skills" />
+        <NavOpt link="#ContactMe" name="Contact Me" />
       </div>
     </nav >
   )

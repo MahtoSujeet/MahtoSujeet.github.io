@@ -5,7 +5,7 @@ import memojiImg from "../assets/img/memoji-contact.png"
 import { CallToAction } from "./Hero.jsx"
 export default function Footer() {
   return (
-    <footer className="Footer card">
+    <footer className="Footer card" id="ContactMe">
       <div className="footerContent">
         <div className="footerText">
           <h2 className="footerHeading">Want to Work together?</h2>
