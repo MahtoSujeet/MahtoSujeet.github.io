@@ -1,6 +1,6 @@
 import "../css/Hero.css"
 
-import sujeetImg from "../assets/img/sujeet-full.jpeg"
+import sujeetImg from "../assets/img/sujeet-width-reduced.jpeg"
 import { WhatsAppIcon } from "../assets/svg/whatsapp"
 import GitHubIcon from "../assets/svg/github.jsx"
 import InstagramIcon from "../assets/svg/instagram"

@@ -1,7 +1,6 @@
 import htmlPng from "../img/html.png"
 import cssPng from "../img/css.png"
 import gitBlackPng from "../img/gitBlack.png"
-import gitOrangePng from "../img/gitOrange.png"
 import githubPng from "../img/github.png"
 import reactPng from "../img/react.png"
 import linuxPng from "../img/linux.png"
@@ -62,7 +61,8 @@ const skillsData = [
       }
     ],
     desc: "COMFERTABLE WITH FLEXBOX, GRID, ANIMATIONS AND RESPONSIVENESS IN CSS",
-    bgColor: "#fff6d6",
+    // bgColor: "#fff6d6",
+    bgColor: "#fff7db",
   },
 ]
 
