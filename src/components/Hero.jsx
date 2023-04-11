@@ -3,7 +3,7 @@ import "../css/Hero.css"
 import sujeetImg from "../assets/img/sujeet-width-reduced.jpeg"
 import { WhatsAppIcon } from "../assets/svg/whatsapp"
 import GitHubIcon from "../assets/svg/github.jsx"
-import InstagramIcon from "../assets/svg/instagram"
+import TelegramIcon from "../assets/svg/telegram"
 
 
 export default function Hero() {
@@ -32,7 +32,7 @@ export function CallToAction() {
       <a className="btn cta-btn" href="mailto:sujeetmehta6@gmail.com">Contact Me</a>
       <WhatsAppIcon />
       <GitHubIcon />
-      <InstagramIcon />
+      <TelegramIcon />
     </div>
   )
 }

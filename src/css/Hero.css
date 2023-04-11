@@ -70,5 +70,9 @@
   background-image: linear-gradient(to bottom left, #ff0000 , #FFC0CB, orange);
 }
 
+.TelegramIcon:focus,
+.TelegramIcon:hover {
+  background-color: #0088cc;
+}
 /**********************************/
 
