@@ -32,6 +32,7 @@ const skillsData = [
     ],
     desc: "COMFERTABLE WITH FLEXBOX, GRID, ANIMATIONS AND RESPONSIVENESS IN CSS",
     bgColor: "#e2fbff",
+    cssClass: "rotate",
   },
   {
     title: "GIT & GITHUB",

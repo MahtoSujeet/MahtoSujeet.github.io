@@ -23,7 +23,7 @@ export function SkillCard({ props }) {
     <div className="card SkillCard" style={style}>
       <div className="skillIcons">
         {props.images.map((image, idx) => (
-          <img className="skillIcon" key={idx} src={image.imgURL} alt={image.name} />
+          <img className={`skillIcon ${props.cssClass}`} key={idx} src={image.imgURL} alt={image.name} />
         )
         )}
       </div>
