@@ -29,7 +29,7 @@ export default function Hero() {
 export function CallToAction() {
   return (
     <div className="CallToAction">
-      <a className="btn cta-btn" href="mailto:sujeetmehta6@gmail.com">Contact Me</a>
+      <a className="btn cta-btn" href="mailto:programmersujeet@gmail.com">Contact Me</a>
       <WhatsAppIcon />
       <GitHubIcon />
       <TelegramIcon />

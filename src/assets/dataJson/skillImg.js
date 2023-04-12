@@ -18,7 +18,7 @@ const skillsData = [
         imgURL: cssPng,
       }
     ],
-    desc: "COMFERTABLE WITH FLEXBOX, GRID, ANIMATIONS AND RESPONSIVENESS IN CSS",
+    desc: "SKILLED IN RESPONSIVE WEB DESIGN USING HTML & CSS, INCLUDING MODERN CSS FRAMEWORKS SUCH AS FLEXBOX AND GRID.",
     bgColor: "#ffeee9",
   },
   {
@@ -29,17 +29,13 @@ const skillsData = [
         imgURL: reactPng,
       }
     ],
-    desc: "COMFERTABLE WITH FLEXBOX, GRID, ANIMATIONS AND RESPONSIVENESS IN CSS",
+    desc: "PROFICIENT IN DEVELOPING SCALABLE WEB APPLICATIONS WITH REACT, INCLUDING COMPONENTS, STATE MANAGEMENT, AND API INTEGRATION.",
     bgColor: "#e2fbff",
     cssClass: "rotate",
   },
   {
     title: "GIT & GITHUB",
     images: [
-      // {
-      //   name: "git orange icon",
-      //   imgURL: gitOrangePng,
-      // },
       {
         name: "git blac icon",
         imgURL: gitBlackPng,
@@ -49,7 +45,8 @@ const skillsData = [
         imgURL: githubPng,
       },
     ],
-    desc: "COMFERTABLE WITH FLEXBOX, GRID, ANIMATIONS AND RESPONSIVENESS IN CSS",
+    desc: "EXPERIENCED WITH VERSION CONTROL USING GIT AND GITHUB FOR COLLABORATION AND PROJECT MANAGEMENT.",
+
     bgColor: "#ededed"
   },
   {
@@ -60,8 +57,7 @@ const skillsData = [
         imgURL: linuxPng,
       }
     ],
-    desc: "COMFERTABLE WITH FLEXBOX, GRID, ANIMATIONS AND RESPONSIVENESS IN CSS",
-    // bgColor: "#fff6d6",
+    desc: "FAMILIAR WITH LINUX COMMAND LINE INTERFACE (CLI) FOR FILE MANAGEMENT, PACKAGE INSTALLATION, AND SYSTEM CONFIGURATION.",
     bgColor: "#fff7db",
   },
 ]
