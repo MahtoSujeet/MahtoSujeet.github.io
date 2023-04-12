@@ -55,7 +55,7 @@ const skillsData = [
       {
         name: "linux icon",
         imgURL: linuxPng,
-      }
+      },
     ],
     desc: "FAMILIAR WITH LINUX COMMAND LINE INTERFACE (CLI) FOR FILE MANAGEMENT, PACKAGE INSTALLATION, AND SYSTEM CONFIGURATION.",
     bgColor: "#fff7db",

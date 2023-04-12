@@ -1,6 +1,7 @@
 import "../css/Hero.css"
 
-import sujeetImg from "../assets/img/sujeet-width-reduced.jpeg"
+import sujeetImg from "../assets/img/sujeet-min.jpg"
+import sujeetWebp from "../assets/img/sujeet.webp"
 import { WhatsAppIcon } from "../assets/svg/whatsapp"
 import GitHubIcon from "../assets/svg/github.jsx"
 import TelegramIcon from "../assets/svg/telegram"
@@ -20,7 +21,10 @@ export default function Hero() {
 
       {/* Adding a wrapper div for media query to maintain aspect ratio */}
       <div className="heroImgWrapper card">
-        <img className="hero-img card" src={sujeetImg} />
+        <picture>
+          <source srcSet={sujeetWebp} type="image/webp" />
+          <img className="hero-img card" src={sujeetImg} />
+        </picture>
       </div>
     </section>
   )
