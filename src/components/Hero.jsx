@@ -5,6 +5,7 @@ import sujeetWebp from "../assets/img/sujeet.webp"
 import { WhatsAppIcon } from "../assets/svg/whatsapp"
 import GitHubIcon from "../assets/svg/github.jsx"
 import TelegramIcon from "../assets/svg/telegram"
+import InstagramIcon from "../assets/svg/instagram.jsx"
 
 
 export default function Hero() {
@@ -36,6 +37,7 @@ export function CallToAction() {
       <a className="btn cta-btn" href="mailto:programmersujeet@gmail.com">Contact Me</a>
       <WhatsAppIcon />
       <GitHubIcon />
+      <InstagramIcon />
       <TelegramIcon />
     </div>
   )

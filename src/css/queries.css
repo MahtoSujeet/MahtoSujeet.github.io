@@ -199,3 +199,9 @@
   }
 }
 
+/* 384 px */
+@media screen and (max-width: 24em) {
+  .TelegramIcon {
+    display: none;
+  }
+}
