@@ -1,5 +1,6 @@
 import "./css/general.css"
 import "./css/App.css"
+import "./css/DarkMode.css"
 
 
 import CurvyLine from "./assets/svg/curvyLine.jsx"

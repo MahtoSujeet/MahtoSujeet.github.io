@@ -103,13 +103,22 @@
     font-weight: 500;
   }
 
+  .dark-mode .NavOpts {
+    background-color: #020711ee;
+  }
+
   .hamburgerWrapper {
     display: unset;
     z-index: 2;
   }
 
-  .NavOpts.open {
-    transform: translateX(0)
+  .dark-mode .hamburgerWrapper {
+    border: 1px solid #eee;
+    border-radius: 10px;
+  }
+
+  .open .NavOpts {
+    transform: translateX(0);
   }
 
   .open .navOpt {

@@ -1,7 +1,18 @@
 .Nav {
   display: flex;
-  justify-content: space-between;
   margin: 2.4rem auto;
+}
+
+.logo {
+  flex: 1 0 auto;
+}
+
+.darkModeBtn {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  border: none;
+  margin: auto 1.2rem;
 }
 
 .NavOpts {

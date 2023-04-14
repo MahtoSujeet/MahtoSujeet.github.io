@@ -1,0 +1,64 @@
+body.dark-mode {
+  --bg-color: #020711;
+  --gray-color: #ebebeb;
+  --text-color: #ddd;
+}
+
+
+/* Hero section */
+
+.dark-mode .hero-text {
+  background-image: linear-gradient(to bottom right, #2a190c,  #000a24);
+}
+
+.dark-mode .cta-btn {
+  background-color: #ffefd1;
+  color: #222;
+}
+
+.dark-mode .cta-btn:hover {
+  color: var(--text-color);
+  background-color: #151118;
+  box-shadow: 0 0 4px #ddd;
+}
+
+.dark-mode .hero-img {
+  filter: brightness(0.85);
+}
+
+.dark-mode .icon {
+  fill: #0e0f1b;
+}
+
+.dark-mode .icon:hover {
+  fill: #eee;
+}
+
+.dark-mode .InstagramIcon:hover {
+  fill: unset;
+}
+
+/************************************/
+
+/***** skills ********/
+
+.dark-mode .SkillCard {
+  filter: brightness(0.9);
+}
+
+.dark-mode .skillsHeading {
+  color: var(--text-color);
+}
+
+
+.dark-mode .skillTitle {
+  color: #333;
+}
+
+/********************/
+
+/* footer */
+.dark-mode .Footer {
+  background-color: #081538;
+}
+
