@@ -25,6 +25,11 @@
   gap: 1.6rem;
   min-height: 42rem;
   box-shadow: none;
+  transition: all 500ms;
+}
+
+.SkillCard:hover {
+  transform: translateY(-2rem)
 }
 
 .skillIcons {
