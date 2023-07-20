@@ -1,5 +1,5 @@
 .Hero {
-  min-height: 60vh;
+  min-height: 40vh;
   display: flex;
   gap: 1.8rem;
 }
@@ -19,7 +19,7 @@
 .heroImgWrapper {
   flex: 0 0 auto;
   width: 40rem;
-  height: 60vh;
+  height: 40vh;
   min-height: 54rem;
   object-fit: cover;
   object-position: center;
@@ -57,7 +57,7 @@
 
 .WhatsAppIcon:focus,
 .WhatsAppIcon:hover {
-  background-color: #075E54;
+  background-color: #22b12c;
 }
 
 .GitHubIcon:focus,

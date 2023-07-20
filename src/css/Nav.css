@@ -3,16 +3,13 @@
   margin: 2.4rem auto;
 }
 
-.logo {
-  flex: 1 0 auto;
-}
-
 .darkModeBtn {
   height: 4rem;
   width: 4rem;
   border-radius: 50%;
   border: none;
   margin: auto 1.2rem;
+  cursor: pointer;
 }
 
 .NavOpts {
@@ -22,7 +19,7 @@
 }
 .navOpt {
   border-radius: 4px;
-  padding: 1.2rem 1.6rem 0.8rem;
+  padding: 1.2rem 1.6rem;
   transition-duration: 200ms;
 }
 
