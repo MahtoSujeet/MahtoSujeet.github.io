@@ -34,7 +34,7 @@ export default function Hero() {
 export function CallToAction() {
   return (
     <div className="CallToAction">
-      <a className="btn cta-btn" href="mailto:programmersujeet@gmail.com">Contact Me</a>
+      <a className="btn cta-btn" href="https://github.com/MahtoSujeet/MahtoSujeet.github.io/"><strong><code>{"</Source Code>"}</code></strong></a>
       <WhatsAppIcon />
       <GitHubIcon />
       <InstagramIcon />
