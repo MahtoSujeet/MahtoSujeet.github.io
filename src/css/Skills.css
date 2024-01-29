@@ -25,7 +25,7 @@
   gap: 1.6rem;
   min-height: 42rem;
   box-shadow: none;
-  transition: all 500ms;
+  transition: all 200ms;
 }
 
 .SkillCard:hover {
@@ -48,6 +48,6 @@
 
 .skillDesc {
   font-size: 1.6rem;
-  color: #666;  
+  color: #666;
   line-height: 2;
- }
+}
