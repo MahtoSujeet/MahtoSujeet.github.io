@@ -8,7 +8,7 @@ body.dark-mode {
 /* Hero section */
 
 .dark-mode .hero-text {
-  background-image: linear-gradient(to bottom right, #2a190c,  #000a24);
+  background-image: linear-gradient(to bottom right, #2a190c, #000a24);
 }
 
 .dark-mode .cta-btn {
@@ -22,9 +22,9 @@ body.dark-mode {
   box-shadow: 0 0 4px #ddd;
 }
 
-.dark-mode .hero-img {
-  filter: brightness(0.85);
-}
+/* .dark-mode .hero-img { */
+/*   filter: brightness(0.85); */
+/* } */
 
 .dark-mode .icon {
   fill: #0e0f1b;
@@ -61,4 +61,3 @@ body.dark-mode {
 .dark-mode .Footer {
   background-color: #1c1f28;
 }
-
